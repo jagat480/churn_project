@@ -13,7 +13,7 @@ Run with:
 import requests
 import streamlit as st
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://churn-project-0zx2.onrender.com/predict"
 
 st.set_page_config(page_title="Customer Churn Predictor", page_icon="📉")
 st.title("📉 Customer Churn Predictor")
